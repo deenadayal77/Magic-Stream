@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Disney + clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+		<a href="index.html"><img src="images/logo.png" class="brand-logo" alt="" /></a>
+      <ul class="nav-links">
+        <li class="nav-items"><a href="tv.html">TV</a></li>
+        <li class="nav-items"><a href="movie.html">MOVIES</a></li>
+        <li class="nav-items"><a href="webseries.html">WEBSERIES</a></li>
+        <li class="nav-items"><a href="kids.html">KIDS</a></li>
+        <li class="nav-items"><a href="sports.html">SPORTS</a></li>
+      </ul>
+      <div class="right-container"></div>
+       <input type="text" class="search-box" placeholder="search" />
+        <button class="sub-btn">subcribe</button>
+        <a href="login.html" class="login-link">Login</a> 
+		<a href="register.html" class="login-link">Register</a>
+		<style>
+			.login-link {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+		</style>
+      </div>
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <!--<div class="slider">
+          <div class="slide-content">
+            <h1 class="movie-title">loki</h1> 
+            <p class="movie-des">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aspernatur omnis maiores, temporibus dignissimos ipsa ipsam.
+            </p>
+          </div>
+          <img src="images/slider 1.png" alt="" />
+        </div>-->
+      </div>
+    </div>
+    <div class="video-card-container">
+			<div class="video-card">
+				<img src="images/disney.PNG" class="video-card-image" alt="" />
+				<video src="videos/disney.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/pixar.PNG" class="video-card-image" alt="" />
+				<video src="videos/pixar.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/geographic.PNG" class="video-card-image" alt="" />
+				<video src="videos/geographic.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/marvel.PNG" class="video-card-image" alt="" />
+				<video src="videos/marvel.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/star-wars.PNG" class="video-card-image" alt="" />
+				<video src="videos/star-war.mp4" mute loop class="card-video"></video>
+			</div>
+		</div>
+
+		<h1 class="title">Popular Kids Shows</h1>
+
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/nxt.png" alt="" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/show1-image.jpg" class="card-img" alt="Adventure Time" />
+					<div class="card-body">
+						<h2 class="name">Adventure Time</h2>
+						<h6 class="des">A boy and his magical dog embark on a series of fun-filled adventures.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/show2-image.jpg" class="card-img" alt="SpongeBob SquarePants" />
+					<div class="card-body">
+						<h2 class="name">SpongeBob SquarePants</h2>
+						<h6 class="des">The adventures of a talking sea sponge who works at a fast food restaurant.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/show3-image.jpg" class="card-img" alt="Peppa Pig" />
+					<div class="card-body">
+						<h2 class="name">Peppa Pig</h2>
+						<h6 class="des">A little pig named Peppa and her family go on adventures.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/show4-image.jpg" class="card-img" alt="PAW Patrol" />
+					<div class="card-body">
+						<h2 class="name">PAW Patrol</h2>
+						<h6 class="des">A group of rescue dogs protect their community.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/show5-image.jpg" class="card-img" alt="Doc McStuffins" />
+					<div class="card-body">
+						<h2 class="name">Doc McStuffins</h2>
+						<h6 class="des">A young girl who can talk to toys and heal them.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/show6-image.jpg" class="card-img" alt="My Little Pony" />
+					<div class="card-body">
+						<h2 class="name">My Little Pony</h2>
+						<h6 class="des">Friendship adventures of magical ponies.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 7 -->
+				<div class="card">
+					<img src="path/to/show7-image.jpg" class="card-img" alt="Thomas & Friends" />
+					<div class="card-body">
+						<h2 class="name">Thomas & Friends</h2>
+						<h6 class="des">Adventures of Thomas the Tank Engine and his friends.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 8 -->
+				<div class="card">
+					<img src="path/to/show8-image.jpg" class="card-img" alt="Dora the Explorer" />
+					<div class="card-body">
+						<h2 class="name">Dora the Explorer</h2>
+						<h6 class="des">A young girl embarks on adventures with her talking backpack.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="card">
+					<img src="path/to/show9-image.jpg" class="card-img" alt="Bluey" />
+					<div class="card-body">
+						<h2 class="name">Bluey</h2>
+						<h6 class="des">An imaginative blue heeler puppy explores her world.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 10 -->
+				<div class="card">
+					<img src="path/to/show10-image.jpg" class="card-img" alt="Daniel Tiger's Neighborhood" />
+					<div class="card-body">
+						<h2 class="name">Daniel Tiger's Neighborhood</h2>
+						<h6 class="des">Young Daniel Tiger learns about life in his neighborhood.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 11 -->
+				<div class="card">
+					<img src="path/to/show11-image.jpg" class="card-img" alt="PJ Masks" />
+					<div class="card-body">
+						<h2 class="name">PJ Masks</h2>
+						<h6 class="des">Young friends transform into superheroes at night.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/show12-image.jpg" class="card-img" alt="The Octonauts" />
+					<div class="card-body">
+						<h2 class="name">The Octonauts</h2>
+						<h6 class="des">A team of quirky and courageous undersea adventurers.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h1 class="title">Animated Adventures</h1>
+
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/nxt.png" alt="" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/show-image-1.jpg" class="card-img" alt="Adventure Time" />
+					<div class="card-body">
+						<h2 class="name">Adventure Time</h2>
+						<h6 class="des">A boy and his magical dog embark on a series of fun-filled adventures.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/show-image-2.jpg" class="card-img" alt="Avatar: The Last Airbender" />
+					<div class="card-body">
+						<h2 class="name">Avatar: The Last Airbender</h2>
+						<h6 class="des">A young airbender named Aang fulfills his destiny of becoming the Avatar.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/show-image-3.jpg" class="card-img" alt="SpongeBob SquarePants" />
+					<div class="card-body">
+						<h2 class="name">SpongeBob SquarePants</h2>
+						<h6 class="des">Underwater adventures of SpongeBob and his friends in Bikini Bottom.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/show-image-4.jpg" class="card-img" alt="Gravity Falls" />
+					<div class="card-body">
+						<h2 class="name">Gravity Falls</h2>
+						<h6 class="des">Twin siblings uncover mysteries in their summer home.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/show-image-5.jpg" class="card-img" alt="Samurai Jack" />
+					<div class="card-body">
+						<h2 class="name">Samurai Jack</h2>
+						<h6 class="des">A samurai travels through time to stop a tyrant.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/show-image-6.jpg" class="card-img" alt="DuckTales" />
+					<div class="card-body">
+						<h2 class="name">DuckTales</h2>
+						<h6 class="des">Scrooge McDuck and his nephews go on treasure hunts.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Continue this pattern for other 6 shows -->
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/show-image-12.jpg" class="card-img" alt="The Legend of Korra" />
+					<div class="card-body">
+						<h2 class="name">The Legend of Korra</h2>
+						<h6 class="des">Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<h1 class="title">Classic Cartoons</h1>
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/nxt.png" alt="" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/looney-tunes-image.jpg" class="card-img" alt="Looney Tunes" />
+					<div class="card-body">
+						<h2 class="name">Looney Tunes</h2>
+						<h6 class="des">A collection of animated short films featuring Bugs Bunny, Daffy Duck, and more.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/tom-and-jerry-image.jpg" class="card-img" alt="Tom and Jerry" />
+					<div class="card-body">
+						<h2 class="name">Tom and Jerry</h2>
+						<h6 class="des">The classic rivalry between a cat named Tom and a mouse named Jerry.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/scooby-doo-image.jpg" class="card-img" alt="Scooby-Doo" />
+					<div class="card-body">
+						<h2 class="name">Scooby-Doo</h2>
+						<h6 class="des">Mystery-solving adventures of Scooby and his friends.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/the-flintstones-image.jpg" class="card-img" alt="The Flintstones" />
+					<div class="card-body">
+						<h2 class="name">The Flintstones</h2>
+						<h6 class="des">Life in the Stone Age with Fred Flintstone and his family.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/the-jetsons-image.jpg" class="card-img" alt="The Jetsons" />
+					<div class="card-body">
+						<h2 class="name">The Jetsons</h2>
+						<h6 class="des">Life in the future with George Jetson and his family.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/yogi-bear-image.jpg" class="card-img" alt="Yogi Bear" />
+					<div class="card-body">
+						<h2 class="name">Yogi Bear</h2>
+						<h6 class="des">Adventures of Yogi Bear and his sidekick Boo-Boo.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 7 -->
+				<div class="card">
+					<img src="path/to/popeye-image.jpg" class="card-img" alt="Popeye" />
+					<div class="card-body">
+						<h2 class="name">Popeye</h2>
+						<h6 class="des">Adventures of Popeye the Sailor Man and his love interest Olive Oyl.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 8 -->
+				<div class="card">
+					<img src="path/to/betty-boop-image.jpg" class="card-img" alt="Betty Boop" />
+					<div class="card-body">
+						<h2 class="name">Betty Boop</h2>
+						<h6 class="des">The adventures of Betty Boop, an iconic flapper girl character.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="card">
+					<img src="path/to/mickey-mouse-image.jpg" class="card-img" alt="Mickey Mouse" />
+					<div class="card-body">
+						<h2 class="name">Mickey Mouse</h2>
+						<h6 class="des">Adventures of Mickey Mouse and his friends at Disney.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 10 -->
+				<div class="card">
+					<img src="path/to/donald-duck-image.jpg" class="card-img" alt="Donald Duck" />
+					<div class="card-body">
+						<h2 class="name">Donald Duck</h2>
+						<h6 class="des">The misadventures of Donald Duck.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 11 -->
+				<div class="card">
+					<img src="path/to/goofy-image.jpg" class="card-img" alt="Goofy" />
+					<div class="card-body">
+						<h2 class="name">Goofy</h2>
+						<h6 class="des">Comedic adventures featuring Goofy, one of Disney's most beloved characters.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/pluto-image.jpg" class="card-img" alt="Pluto" />
+					<div class="card-body">
+						<h2 class="name">Pluto</h2>
+						<h6 class="des">Adventures of Pluto, Mickey Mouse's pet dog.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+		<script src="index.js" async></script>
+  </body>
+</html>
+

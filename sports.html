@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Disney + clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+		<a href="index.html"><img src="images/logo.png" class="brand-logo" alt="" /></a>
+      <ul class="nav-links">
+        <li class="nav-items"><a href="tv.html">TV</a></li>
+        <li class="nav-items"><a href="movie.html">MOVIES</a></li>
+        <li class="nav-items"><a href="webseries.html">WEBSERIES</a></li>
+        <li class="nav-items"><a href="kids.html">KIDS</a></li>
+        <li class="nav-items"><a href="sports.html">SPORTS</a></li>
+      </ul>
+      <div class="right-container"></div>
+       <input type="text" class="search-box" placeholder="search" />
+        <button class="sub-btn">subcribe</button>
+        <a href="login.html" class="login-link">Login</a> 
+		<a href="register.html" class="login-link">Register</a>
+		<style>
+			.login-link {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+		</style>
+      </div>
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <!--<div class="slider">
+          <div class="slide-content">
+            <h1 class="movie-title">loki</h1> 
+            <p class="movie-des">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aspernatur omnis maiores, temporibus dignissimos ipsa ipsam.
+            </p>
+          </div>
+          <img src="images/slider 1.png" alt="" />
+        </div>-->
+      </div>
+    </div>
+    <div class="video-card-container">
+			<div class="video-card">
+				<img src="images/disney.PNG" class="video-card-image" alt="" />
+				<video src="videos/disney.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/pixar.PNG" class="video-card-image" alt="" />
+				<video src="videos/pixar.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/geographic.PNG" class="video-card-image" alt="" />
+				<video src="videos/geographic.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/marvel.PNG" class="video-card-image" alt="" />
+				<video src="videos/marvel.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/star-wars.PNG" class="video-card-image" alt="" />
+				<video src="videos/star-war.mp4" mute loop class="card-video"></video>
+			</div>
+		</div>
+
+		<h1 class="title">Live Shows</h1>
+		<div class="sports-list">
+			<button class="pre-btn" title="Previous">
+				<img src="images/pre.png" alt="Previous" />
+			</button>
+			<button class="nxt-btn" title="Next">
+				<img src="images/nxt.png" alt="Next" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-1.jpg" class="card-img" alt="Live Sports 1" />
+					<div class="card-body">
+						<h2 class="name">Match of the Day 1</h2>
+						<h6 class="des">Live coverage of today's top football match.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-2.jpg" class="card-img" alt="Live Sports 2" />
+					<div class="card-body">
+						<h2 class="name">Grand Slam Tennis</h2>
+						<h6 class="des">Watch the latest Grand Slam tennis matches live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-3.jpg" class="card-img" alt="Live Sports 3" />
+					<div class="card-body">
+						<h2 class="name">NBA Game Night</h2>
+						<h6 class="des">Catch the live NBA games and highlights.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-4.jpg" class="card-img" alt="Live Sports 4" />
+					<div class="card-body">
+						<h2 class="name">Formula 1 Race</h2>
+						<h6 class="des">Experience the adrenaline of live Formula 1 racing.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-5.jpg" class="card-img" alt="Live Sports 5" />
+					<div class="card-body">
+						<h2 class="name">MLB Baseball</h2>
+						<h6 class="des">Watch live Major League Baseball games.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-6.jpg" class="card-img" alt="Live Sports 6" />
+					<div class="card-body">
+						<h2 class="name">NFL Sunday Football</h2>
+						<h6 class="des">Enjoy the latest NFL football games live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 7 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-7.jpg" class="card-img" alt="Live Sports 7" />
+					<div class="card-body">
+						<h2 class="name">UFC Fight Night</h2>
+						<h6 class="des">Live coverage of UFC mixed martial arts events.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 8 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-8.jpg" class="card-img" alt="Live Sports 8" />
+					<div class="card-body">
+						<h2 class="name">Cycling Tour</h2>
+						<h6 class="des">Catch the excitement of live cycling tours and races.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-9.jpg" class="card-img" alt="Live Sports 9" />
+					<div class="card-body">
+						<h2 class="name">Olympic Games</h2>
+						<h6 class="des">Watch the latest events from the Olympic Games live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 10 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-10.jpg" class="card-img" alt="Live Sports 10" />
+					<div class="card-body">
+						<h2 class="name">Golf Masters</h2>
+						<h6 class="des">Follow live coverage of prestigious golf tournaments.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 11 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-11.jpg" class="card-img" alt="Live Sports 11" />
+					<div class="card-body">
+						<h2 class="name">Wrestling Showdown</h2>
+						<h6 class="des">Catch the action of live professional wrestling events.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/live-sports-image-12.jpg" class="card-img" alt="Live Sports 12" />
+					<div class="card-body">
+						<h2 class="name">Rugby World Cup</h2>
+						<h6 class="des">Watch the Rugby World Cup matches live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h1 class="title">Esports and Gaming</h1>
+
+		<div class="gaming-list">
+			<button class="pre-btn" title="Previous">
+				<img src="images/pre.png" alt="Previous" />
+			</button>
+			<button class="nxt-btn" title="Next">
+				<img src="images/nxt.png" alt="Next" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/esports-image-1.jpg" class="card-img" alt="Esports Event 1" />
+					<div class="card-body">
+						<h2 class="name">Esports Tournament 1</h2>
+						<h6 class="des">Live stream of the top esports tournament featuring leading teams.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/esports-image-2.jpg" class="card-img" alt="Esports Event 2" />
+					<div class="card-body">
+						<h2 class="name">Gaming Championship 2</h2>
+						<h6 class="des">Watch the finals of this year’s biggest gaming championship.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/esports-image-3.jpg" class="card-img" alt="Esports Event 3" />
+					<div class="card-body">
+						<h2 class="name">League of Legends Clash</h2>
+						<h6 class="des">Catch the latest League of Legends competitive matches live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/esports-image-4.jpg" class="card-img" alt="Esports Event 4" />
+					<div class="card-body">
+						<h2 class="name">Dota 2 Battle Arena</h2>
+						<h6 class="des">Experience the intensity of Dota 2 battles and strategies.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/esports-image-5.jpg" class="card-img" alt="Esports Event 5" />
+					<div class="card-body">
+						<h2 class="name">Counter-Strike: Global Offensive</h2>
+						<h6 class="des">Tune in for live action and tactical plays in CS:GO tournaments.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/esports-image-6.jpg" class="card-img" alt="Esports Event 6" />
+					<div class="card-body">
+						<h2 class="name">Fortnite Battle Royale</h2>
+						<h6 class="des">Watch live Fortnite matches and epic battles.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 7 -->
+				<div class="card">
+					<img src="path/to/esports-image-7.jpg" class="card-img" alt="Esports Event 7" />
+					<div class="card-body">
+						<h2 class="name">Valorant Pro League</h2>
+						<h6 class="des">Follow the competitive Valorant games and watch professional teams in action.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 8 -->
+				<div class="card">
+					<img src="path/to/esports-image-8.jpg" class="card-img" alt="Esports Event 8" />
+					<div class="card-body">
+						<h2 class="name">Call of Duty Tournament</h2>
+						<h6 class="des">Catch the latest Call of Duty competitive matches and events.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="card">
+					<img src="path/to/esports-image-9.jpg" class="card-img" alt="Esports Event 9" />
+					<div class="card-body">
+						<h2 class="name">PUBG Mobile Championship</h2>
+						<h6 class="des">Watch the best teams compete in PUBG Mobile tournaments.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 10 -->
+				<div class="card">
+					<img src="path/to/esports-image-10.jpg" class="card-img" alt="Esports Event 10" />
+					<div class="card-body">
+						<h2 class="name">Rainbow Six Siege Showdown</h2>
+						<h6 class="des">Live action from the Rainbow Six Siege competitive scene.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 11 -->
+				<div class="card">
+					<img src="path/to/esports-image-11.jpg" class="card-img" alt="Esports Event 11" />
+					<div class="card-body">
+						<h2 class="name">Overwatch League</h2>
+						<h6 class="des">Tune into live Overwatch matches and team battles.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/esports-image-12.jpg" class="card-img" alt="Esports Event 12" />
+					<div class="card-body">
+						<h2 class="name">StarCraft II Tournament</h2>
+						<h6 class="des">Watch high-level StarCraft II games and strategies live.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<h1 class="title">Movies and Documentaries</h1>
+		<div class="movies-docs-list">
+			<button class="pre-btn" title="Previous">
+				<img src="images/pre.png" alt="Previous" />
+			</button>
+			<button class="nxt-btn" title="Next">
+				<img src="images/nxt.png" alt="Next" />
+			</button>
+			<div class="card-container">
+				<!-- Card 1 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-1.jpg" class="card-img" alt="Sports Movie 1" />
+					<div class="card-body">
+						<h2 class="name">Sports Drama 1</h2>
+						<h6 class="des">An inspiring story about a champion athlete overcoming all odds.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 2 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-2.jpg" class="card-img" alt="Sports Movie 2" />
+					<div class="card-body">
+						<h2 class="name">Documentary on Football</h2>
+						<h6 class="des">An in-depth look at the history and impact of football.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 3 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-3.jpg" class="card-img" alt="Sports Movie 3" />
+					<div class="card-body">
+						<h2 class="name">Basketball Legend</h2>
+						<h6 class="des">A biographical film about a legendary basketball player’s career.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 4 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-4.jpg" class="card-img" alt="Sports Movie 4" />
+					<div class="card-body">
+						<h2 class="name">The Olympic Journey</h2>
+						<h6 class="des">Explore the history and evolution of the Olympic Games.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 5 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-5.jpg" class="card-img" alt="Sports Movie 5" />
+					<div class="card-body">
+						<h2 class="name">Racing to Glory</h2>
+						<h6 class="des">Follow the highs and lows of a professional race car driver.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 6 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-6.jpg" class="card-img" alt="Sports Movie 6" />
+					<div class="card-body">
+						<h2 class="name">Soccer Legends</h2>
+						<h6 class="des">Documentary on the most iconic soccer players of all time.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 7 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-7.jpg" class="card-img" alt="Sports Movie 7" />
+					<div class="card-body">
+						<h2 class="name">The Fighter</h2>
+						<h6 class="des">A gripping story of a boxer’s journey from underdog to champion.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 8 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-8.jpg" class="card-img" alt="Sports Movie 8" />
+					<div class="card-body">
+						<h2 class="name">Ultimate Sports Rivalries</h2>
+						<h6 class="des">Explore the most intense rivalries in sports history.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-9.jpg" class="card-img" alt="Sports Movie 9" />
+					<div class="card-body">
+						<h2 class="name">The Art of Basketball</h2>
+						<h6 class="des">A documentary exploring the artistry and strategy behind basketball.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 10 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-10.jpg" class="card-img" alt="Sports Movie 10" />
+					<div class="card-body">
+						<h2 class="name">Football's Greatest Moments</h2>
+						<h6 class="des">Highlights and memorable moments from the world of football.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 11 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-11.jpg" class="card-img" alt="Sports Movie 11" />
+					<div class="card-body">
+						<h2 class="name">The Winning Formula</h2>
+						<h6 class="des">Inside look at the strategies that make sports teams successful.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+		
+				<!-- Card 12 -->
+				<div class="card">
+					<img src="path/to/sports-movie-image-12.jpg" class="card-img" alt="Sports Movie 12" />
+					<div class="card-body">
+						<h2 class="name">The Story of the Marathon</h2>
+						<h6 class="des">A documentary tracing the origins and evolution of marathon running.</h6>
+						<button class="watchlist-btn">Add to Watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<script src="index.js" async></script>
+  </body>
+</html>
+
